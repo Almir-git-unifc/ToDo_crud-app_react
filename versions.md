@@ -21,3 +21,5 @@ v0.08.000 - styled input and select fields
 v0.09.000 - create complete and Del-X buttons
 
 v0.10.000 - implements function that ‘Create task’ button send message to console
+
+v0.11.000 - implements function that ‘Create task’ button send first task to console
