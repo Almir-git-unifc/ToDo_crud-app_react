@@ -48,3 +48,15 @@ button{
 button:hover{
 	opacity: 1;  /* com transição hover a opacidade muda de 0.8 para 1.0 */
 }
+
+.todo-form{
+	padding-bottom: 1.5rem;  /* para dar espaçamento interno */
+}
+
+input, select {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	border-radius: 3px; 	/* conforme outros itens, é padrão */
+	width: 100%;   
+}
