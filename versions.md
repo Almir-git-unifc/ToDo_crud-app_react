@@ -15,3 +15,5 @@ v00.05.000 - create Todo and TodoForm components and ADD to App.jsx
 v0.06.000 - implements TodoForm with title, input, select field and button Create task
 
 v0.07.000 -react vite optimized layout with style.css
+
+v0.08.000 - styled input and select fields
