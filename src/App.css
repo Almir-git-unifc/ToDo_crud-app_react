@@ -17,3 +17,19 @@ body{
   padding: 20px 30px;
   border-radius: 10px;
 }
+
+h1 {
+  text-align: center; /* centralizar o paragrafo h1 */
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  box-sizing: border-box;  /* para não passar da área de limite */
+}
