@@ -33,3 +33,18 @@ p {
 input {
   box-sizing: border-box;  /* para não passar da área de limite */
 }
+
+button{
+	background-color: #333974;
+	color: #fff;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	opacity: 0.8;
+	transition: 0.3s; /*com a transição a cor mudará a opacity */
+}
+
+button:hover{
+	opacity: 1;  /* com transição hover a opacidade muda de 0.8 para 1.0 */
+}
