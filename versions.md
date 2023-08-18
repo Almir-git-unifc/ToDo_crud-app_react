@@ -17,3 +17,5 @@ v0.06.000 - implements TodoForm with title, input, select field and button Creat
 v0.07.000 -react vite optimized layout with style.css
 
 v0.08.000 - styled input and select fields
+
+v0.09.000 - create complete and Del-X buttons
