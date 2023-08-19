@@ -1,4 +1,4 @@
-const Filter = () => {
+const Filter = ({ filter, setFilter }) => {
   /** No select, o padrão de nosso sistema começa com ALL = Todas */
   /** botões de ordem alfabetica, são Asc = ascendente, e Desc = ordem descendente; não são filtros, é ordenação*/
   return (
@@ -7,7 +7,7 @@ const Filter = () => {
       <div className='filter-options'>
         <div>
           <p>Status:</p>
-          <select>
+          <select value={ filter } onChange={(e) => setFilter(e.target.value)} >
             <option value='All'>Todas</option>
             <option value='Completed'>Completas</option>
             <option value='Incomplete'>Incompletas</option>
