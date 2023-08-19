@@ -90,3 +90,22 @@ input, select {
 	border-radius: 3px; 	/* conforme outros itens, é padrão */
 	width: 100%;   
 }
+
+/** filter e search terão o mesmo estilo que todo-list, e cada um fica numa área delimitada */
+.filter, .search {
+	border-bottom: 1px solid #555;
+	margin-bottom: 20px;
+	padding-bottom: 20px;  
+}
+
+/** Vamos deixar o filtro do lado direito, e o search do lado esquerdo */
+/** afasta um do outro (mas como estão em cantos não funciona o gap */
+.filter-options {
+	display: flex;
+	justify-content: space-between;
+    gap: 3rem;
+}
+
+.filter-options div {
+	flex: 1 1 0; /** Adicionando flex eles assumem todo espaço que puderem */
+}
