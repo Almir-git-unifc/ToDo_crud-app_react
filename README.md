@@ -40,7 +40,7 @@ Msg-linter and comitzen for semantic version and Convencional Commits;  beyond t
 &nbsp;
 # How To Use
 
-To clone and run this application, you'll need Git, Node.js v1XXXXX.XXXX or higher + npm (used version XXXXX.XXXX.XXXX) installed on your computer from your command line:
+To clone and run this application. You'll need Git, Node.js v18.16.0 or higher + npm (used version 9.8.1) + VITE v4.4.9; all installed on your computer from your command line:
 
 
 &nbsp;
@@ -63,6 +63,7 @@ To clone and run this application, you'll need Git, Node.js v1XXXXX.XXXX or high
 &nbsp;
 ## Run locally the app
 ### $ `npm start`
+#### $ `use the Local link provided by VITE to access the server`
 
 
 
