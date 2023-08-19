@@ -9,33 +9,52 @@ function App () {
       id: 1,
       text: 'Criar funcionalidades X no sistema',
       category: 'Trabalho',
-      isCompleted: false
+      isCompleted: false,
     },
     {
       id: 2,
       text: 'Ir para a academia',
       category: 'Pessoal',
-      isCompleted: false
+      isCompleted: false,
     },
     {
       id: 3,
       text: 'Estudar React',
       category: 'Estudos',
-      isCompleted: false
-    }
-  ])
+      isCompleted: false,
+    },
+  ]);
+
+  const addTodo = (text, category) => {
+    /* Vamos adicionar o array de objetos todo, em um novo Todo */
+    /* newTodos é um array[], com spread dos arrays atuais [...todos] + novo todo '',{}'' que criaremos agora */
+    /* text: que vira do formulário */
+    /* category: que virá do formulário *-******************* */
+     /* isCompleted: todos iniciam falso ************* */
+    const newTodos = [...todos, {
+        id: Math.floor(Math.random() * 10000),
+        text,                                   
+        category,                                
+        isCompleted: false,
+      },
+    ];
+
+    /* Vamos atualizar o estado dos ToDos que estão sendo controlado no react */
+    /* Vamos passar a variavel newTodos para a memória principal */
+    setTodos(newTodos);
+  };
 
   return (
     <div className='App'>
       <h1>Lista de Tarefas</h1>
       <div className='todo-list'>
         {todos.map(todo => (
-          <Todo todo={todo} />
+          <Todo key={todo.id} todo={todo} />
         ))}
       </div>
-      <TodoForm />
+      <TodoForm addTodo={addTodo} />
     </div>
-  )
+  );
 }
 
 export default App
