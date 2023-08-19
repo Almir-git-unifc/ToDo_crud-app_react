@@ -29,3 +29,5 @@ v0.12.000 - implements function that ‘Create task’ button send first task to
 v0.13.000 - using the style, we separate the options buttons, to opposite sides
 
 v0.14.000 - implements remove function in App.jsx, that is called on button of Todo.jsx
+
+v0.15.000 - implements completeTodo function in App.jsx, and call it on Todo.jsx's button
