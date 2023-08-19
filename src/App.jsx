@@ -23,14 +23,14 @@ function App () {
       id: 3,
       text: 'Estudar React',
       category: 'Estudos',
-      isCompleted: false,
-    },
-  ]);
+      isCompleted: false
+    }
+  ])
 
-  const [search, setSearch] = useState('');
+  const [search, setSearch] = useState('')
 
-  const [filter, setFilter] = useState('All');
-  const [sort, setSort] = useState('Asc'); /** iniciamos com ordem crescente */
+  const [filter, setFilter] = useState('All')
+  const [sort, setSort] = useState('Asc') /** iniciamos com ordem crescente */
 
   const addTodo = (text, category) => {
     /* Vamos adicionar o array de objetos todo, em um novo Todo */
@@ -80,19 +80,26 @@ function App () {
       <h1>Lista de Tarefas</h1>
       <Search search={search} setSearch={setSearch} />
 
-      <Filter filter={filter} setFilter={setFilter} />
+      <Filter filter={filter} setFilter={setFilter} setSort={setSort} />
 
       <div className='todo-list'>
         {todos
-         .filter((todo) =>filter === "All"  
-         ? true 
-          : (filter === "Completed" 
-               ? todo.isCompleted   
-                : !todo.isCompleted) )
-    
+          .filter(todo =>
+            filter === 'All'
+              ? true
+              : filter === 'Completed'
+              ? todo.isCompleted
+              : !todo.isCompleted
+          )
           .filter(todo =>
             todo.text.toLowerCase().includes(search.toLowerCase())
           )
+          .sort((a, b) =>
+            sort === 'Asc'
+              ? a.text.localeCompare(b.text)
+              : b.text.localeCompare(a.text)
+          )
+
           .map(todo => (
             <Todo
               key={todo.id}

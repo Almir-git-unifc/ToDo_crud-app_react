@@ -39,3 +39,5 @@ v0.17.000 - create Search function in App.jsx that is call it for graph button
 v0.18.000 - create Filter.jsx with alphabetic btn and status options on opposite sides
 
 v0.19.000 - Filter.jsx receives value, send it to App.jsx props, and run todo.filter
+
+v0.20.000 - App.jsx add sort funct, setSort in Filter tag; add asc-desc btns in Filter.jsx
