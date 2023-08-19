@@ -44,12 +44,22 @@ function App () {
     setTodos(newTodos);
   };
 
+    /* criamos acima variável  com todos os Todos, e* /
+    /* Colocamos filtro nela; mas filter não muda o original, então precisa nova variável */
+    /* Procurar id diferentes (!==) dos outros e retornar, se for igual retorna null =excluir */
+  const removeTodo = (id)  => {    
+    const newTodos = [...todos] 
+    const filteredTodos = newTodos.filter(todo  => todo.id  !==  id ? todo : null );
+    setTodos(filteredTodos); /*  Atualiza a memória hook */
+ }; /* Esta função precisa ser atribuída a um botão */
+
+
   return (
     <div className='App'>
       <h1>Lista de Tarefas</h1>
       <div className='todo-list'>
         {todos.map(todo => (
-          <Todo key={todo.id} todo={todo} />
+          <Todo key={todo.id} todo={todo} removeTodo={removeTodo} />
         ))}
       </div>
       <TodoForm addTodo={addTodo} />
