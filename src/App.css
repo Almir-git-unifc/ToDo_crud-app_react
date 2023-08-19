@@ -38,6 +38,7 @@ button{
 	background-color: #333974;
 	color: #fff;
 	padding: 5px 10px;
+  margin-right: 10px;
 	border: none;
 	border-radius: 3px;
 	cursor: pointer;
@@ -48,6 +49,26 @@ button{
 button:hover{
 	opacity: 1;  /* com transição hover a opacidade muda de 0.8 para 1.0 */
 }
+
+/* Aos 38:00 min */
+.todo-list{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #555; /* uma linha marcar o fim da lista e começar o form */
+}
+
+.todo { /* cada uma das tarefas */
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* cor preta e opacidade 0.1 */
+	padding: 10px;       	/* para afastar um item do outro */
+	margin-bottom: 10px; 	/* para afastar um item do outro */
+	border-radius: 5px;  	/* segue o projeto */
+	display: flex;
+	justify-content: space-between; /* Alinha a horizontal, colocando os botões no lado direito e o conteúdo no lado esquerdo */
+	align-items: center; 	/* Centralizar na vertical */
+}
+/* fim dos 38.31 min */
+
 
 .complete{
 	background-color: #5cb85c;
