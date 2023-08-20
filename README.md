@@ -56,5 +56,3 @@ To clone and run this application. You'll need Git, Node.js v18.16.0 or higher +
 #### $ `use the Local link provided by VITE to access the server`
 
 ## Enjoyed!
-
-# The end!
