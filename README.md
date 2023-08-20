@@ -30,28 +30,29 @@ To clone and run this application. You'll need Git, Node.js v18.16.0 or higher +
 
 
 &nbsp;
-## Clone this repository
+## Clone this repository or download zip folder
 ### $ `https://github.com/Almir-git-unifc/Control_crud-app_vite_react-js_memory.git`
 
 
 &nbsp;
-## Go to repository
-### $ `cd Control_crud-app_vite_react-js_memory`
+## Install project vite
+### $ `npm create vite@latest`
 
 
 &nbsp;
-## Install dependencies
-### $ `npm install`
+## choose name project, frameewor and variant
+### $ `choose  (project named)   vite-project `
+### $ `(framework)       React`
+### $ `(variant)         JavaScript`
 
-### $ `npm run dev`
+### $ `Copy content project, was download of this Github repository, inside folder vite-project created before`
 
 
 &nbsp;
 ## Run locally the app
+### $ `cd folder-name-project (vite-project)`
+### $ `npm install`
 ### $ `npm run dev`
 #### $ `use the Local link provided by VITE to access the server`
 
-
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Enjoyed!Enjoyed!
