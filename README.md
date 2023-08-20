@@ -1,27 +1,13 @@
-# React + Vite
+# Control_crud-app_vite_react-js_memory
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-
-
-# simplecolorCardsPage-react_js
-
-This is a CRUD Application using Node.js, React, JS, json
+This is a CRUD Application To-Do without persistence that using Node.js, React, JS, json
 
 ---------------------------------------------------------------------------------------------------------
 
 
 # Demo
-![Screen1]()
+![To Do List](https://github.com/Almir-git-unifc/Control_crud-app_vite_react-js_memory/blob/main/screen-todo.png)
 
-![Screen2]()
-
-![Screen3]()
 
 --------------------------------------------------------------------------------------
 
