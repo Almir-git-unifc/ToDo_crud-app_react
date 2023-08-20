@@ -41,7 +41,7 @@ To clone and run this application. You'll need Git, Node.js v18.16.0 or higher +
 
 &nbsp;
 ## choose name project, framework and variant
-### $ `choose  (project named)   vite-project `
+### $ `choose  (your project named)   vite-project `
 ### $ `(framework)       React`
 ### $ `(variant)         JavaScript`
 
