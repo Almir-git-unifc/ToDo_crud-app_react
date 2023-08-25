@@ -67,6 +67,30 @@ function App () {
   /** Function Complete */
   /** newTodos Atualiza a memória hook */
   const completeTodo = id => {
+
+  // Get the button element
+  const button = event.target;
+
+  // Get the current button color
+  const currentColor = button.style.backgroundColor;
+
+  // If the current button color is red
+  if (currentColor === "blue") {
+    // Set the button color to blue
+    button.style.backgroundColor = "green";
+    // Set the button text style to line-throught
+     button.style.textDecoration = "";
+    // Set the button text to "Completar"
+    button.textContent = "Completar";
+  } else {
+    // Set the button color to red
+    button.style.backgroundColor = "blue";
+    // Remove the button text style
+    // button.style.textDecoration = "line-through";
+    // Set the button text to "Concluido"
+    button.textContent = "Concluido";
+  }
+
     const newTodos = [...todos]
     newTodos.map(todo =>
       todo.id === id ? (todo.isCompleted = !todo.isCompleted) : todo
