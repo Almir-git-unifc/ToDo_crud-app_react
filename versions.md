@@ -52,4 +52,4 @@ v0.26.000 - update files that missing to deploy
 
 v0.27.000 - image update in readme and completar btn to change color and label on click, in app.js and app.css
 
-"feat(js): v0.27.000 - updated image and app.js and app.css to change color and label on button click"
+v0.28.000 - update readme to new deploy

@@ -55,4 +55,11 @@ To clone and run this application. You'll need Git, Node.js v18.16.0 or higher +
 ### $ `npm run dev`
 #### $ `use the Local link provided by VITE to access the server`
 
+
+&nbsp;
+## Want to see the app working
+- Then see the app running on [this website](https://almir-git-unifc.github.io/Control_crud-app_vite_react-js_memory/)
+
+
+
 ## Enjoyed!
