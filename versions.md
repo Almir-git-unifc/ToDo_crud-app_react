@@ -41,3 +41,15 @@ v0.18.000 - create Filter.jsx with alphabetic btn and status options on opposite
 v0.19.000 - Filter.jsx receives value, send it to App.jsx props, and run todo.filter
 
 v0.20.000 - App.jsx add sort funct, setSort in Filter tag; add asc-desc btns in Filter.jsx
+
+v0.21.000 to - v0.23.000 - update README.md file removing works duplicated
+
+v0.24.000 - update tested installation steps in README.md
+
+v0.25.000 - update package.json and vite.config.js files to deploy
+
+v0.26.000 - update files that missing to deploy
+
+v0.27.000 - image update in readme and completar btn to change color and label on click, in app.js and app.css
+
+"feat(js): v0.27.000 - updated image and app.js and app.css to change color and label on button click"
