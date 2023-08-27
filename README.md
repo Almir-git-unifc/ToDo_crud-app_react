@@ -1,4 +1,4 @@
-Todo CRUD Application with data in useState
+Todo Application with data in useState
 ===========================================
 This is a CRUD Application To-Do without persistence that using Node.js, React, JS.
 
